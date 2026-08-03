@@ -8,7 +8,7 @@
 
 <a href="https://www.linkedin.com/in/kumud-ranjan-490258399/"><img src="https://img.shields.io/badge/LinkedIn-Connect-C9A24B?style=for-the-badge&labelColor=14100A&logo=linkedin&logoColor=E8C874" alt="LinkedIn"></a>
 <a href="https://x.com/STARSAVER6127"><img src="https://img.shields.io/badge/X-@STARSAVER6127-C9A24B?style=for-the-badge&labelColor=14100A&logo=x&logoColor=E8C874" alt="X"></a>
-<a href="mailto:kumudranjan6127@gmail.com"><img src="https://img.shields.io/badge/Email-Reach%20out-C9A24B?style=for-the-badge&labelColor=14100A&logo=gmail&logoColor=E8C874" alt="Email"></a>
+<a href="https://mail.google.com/mail/?view=cm&fs=1&to=kumudranjan6127@gmail.com&su=Hello%20Kumud"><img src="https://img.shields.io/badge/Email-Reach%20out-C9A24B?style=for-the-badge&labelColor=14100A&logo=gmail&logoColor=E8C874" alt="Email"></a>
 
 </div>
 
@@ -129,12 +129,8 @@ A personal AI assistant for Windows that listens, answers aloud, and safely cont
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=kumudranjan6127-debug&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&title_color=C9A24B&icon_color=E8C874&text_color=D6C9A8&bg_color=0D0B07" alt="GitHub Stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kumudranjan6127-debug&layout=compact&langs_count=8&hide_border=true&title_color=C9A24B&text_color=D6C9A8&bg_color=0D0B07" alt="Top Languages" />
-
-<br/>
-
-<img height="165" src="https://streak-stats.demolab.com?user=kumudranjan6127-debug&hide_border=true&background=0D0B07&stroke=6B531F&ring=C9A24B&fire=E8C874&currStreakLabel=C9A24B&sideLabels=D6C9A8&dates=8A7A5C&currStreakNum=E8C874&sideNums=E8C874" alt="GitHub Streak" />
+<img src="assets/stats.svg" alt="GitHub Stats — 6 stars, 151 commits, 52 pull requests" width="48%" />
+<img src="assets/langs.svg" alt="Top Languages — TypeScript 79%, Python 15%, JavaScript 4%" width="48%" />
 
 <br/><br/>
 
@@ -150,7 +146,7 @@ A personal AI assistant for Windows that listens, answers aloud, and safely cont
 
 <a href="https://www.linkedin.com/in/kumud-ranjan-490258399/"><img src="https://img.shields.io/badge/LinkedIn-C9A24B?style=for-the-badge&labelColor=14100A&logo=linkedin&logoColor=E8C874" alt="LinkedIn"></a>
 <a href="https://x.com/STARSAVER6127"><img src="https://img.shields.io/badge/X-C9A24B?style=for-the-badge&labelColor=14100A&logo=x&logoColor=E8C874" alt="X"></a>
-<a href="mailto:kumudranjan6127@gmail.com"><img src="https://img.shields.io/badge/Gmail-C9A24B?style=for-the-badge&labelColor=14100A&logo=gmail&logoColor=E8C874" alt="Email"></a>
+<a href="https://mail.google.com/mail/?view=cm&fs=1&to=kumudranjan6127@gmail.com&su=Hello%20Kumud"><img src="https://img.shields.io/badge/Gmail-C9A24B?style=for-the-badge&labelColor=14100A&logo=gmail&logoColor=E8C874" alt="Email"></a>
 
 <br/>
 
