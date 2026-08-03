@@ -152,7 +152,7 @@ A personal AI assistant for Windows that listens, answers aloud, and safely cont
 
 <br/>
 
-📧 &nbsp;<a href="mailto:kumudranjan6127@gmail.com"><code>kumudranjan6127@gmail.com</code></a>
+📧 &nbsp; `kumudranjan6127@gmail.com`
 
 <sub>Click the address to open your mail app, or the Gmail badge to compose in the browser.</sub>
 
