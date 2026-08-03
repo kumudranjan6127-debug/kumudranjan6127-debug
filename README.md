@@ -21,62 +21,102 @@
 
 ## ◢ About
 
+I build **systems that keep running after I close the laptop** — hyperlocal delivery
+infrastructure, content pipelines nobody has to click, and voice agents that stay inside
+their sandbox. Most of my work lives at the seam where a clean API meets a real deadline.
+
 ```ts
 const kumud = {
-  role:    "Full-Stack Engineer",
-  focus:   ["production web platforms", "AI agents", "hands-off automation"],
-  stack:   ["TypeScript", "Python", "Next.js", "Fastify", "Prisma", "Expo"],
-  belief:  "A system you have to babysit isn't finished.",
-  status:  "Building Medirush — 40-minute medicine delivery.",
-};
+  role:   "Full-Stack Engineer",
+  focus:  ["production platforms", "AI agents", "hands-off automation"],
+  stack:  ["TypeScript", "Python", "Next.js", "Fastify", "Prisma", "Expo"],
+  method: "Spec first, contracts second, code third.",
+  belief: "A system you have to babysit isn't finished.",
+} as const;
 ```
 
-- ◤ **Building** — [Medirush](https://github.com/kumudranjan6127-debug/Medirush), a licensed hyperlocal pharmacy platform on a Turborepo monorepo.
-- ◤ **Automating** — [servio-social](https://github.com/kumudranjan6127-debug/servio-social) writes and ships Servio's social media daily at 09:00 IST with nobody in the loop.
-- ◤ **Exploring** — offline voice interfaces and safety-gated agent execution in [JARVIS](https://github.com/kumudranjan6127-debug/JARVIS).
-- ◤ **Open to** — collaboration on ambitious product engineering.
+<table>
+<tr>
+  <td width="140"><b>▸ Building</b></td>
+  <td><a href="https://github.com/kumudranjan6127-debug/Medirush"><b>Medirush</b></a> — licensed hyperlocal pharmacy platform, one Fastify API serving a PWA, an ops panel, and a driver app off a shared contracts package.</td>
+</tr>
+<tr>
+  <td><b>▸ Automating</b></td>
+  <td><a href="https://github.com/kumudranjan6127-debug/servio-social"><b>servio-social</b></a> — Gemini writes it, Buffer ships it, GitHub Actions fires at 09:00 IST. Nobody in the loop.</td>
+</tr>
+<tr>
+  <td><b>▸ Exploring</b></td>
+  <td><a href="https://github.com/kumudranjan6127-debug/JARVIS"><b>JARVIS</b></a> — offline speech and allowlist-gated agent execution. Your voice never leaves the machine.</td>
+</tr>
+<tr>
+  <td><b>▸ Open to</b></td>
+  <td>Collaboration on ambitious product engineering — especially anything with hard latency or safety constraints.</td>
+</tr>
+</table>
 
 ---
 
 ## ◢ Tech Stack
 
-<div align="center">
-
-**Languages**
-
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
-
-**Frontend**
-
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Expo](https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![shadcn/ui](https://img.shields.io/badge/shadcn%2Fui-000000?style=flat-square&logo=shadcnui&logoColor=white)
-
-**Backend & Data**
-
-![Fastify](https://img.shields.io/badge/Fastify-000000?style=flat-square&logo=fastify&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=flat-square&logo=socketdotio&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white)
-
-**Tooling & Infra**
-
-![Turborepo](https://img.shields.io/badge/Turborepo-EF4444?style=flat-square&logo=turborepo&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-DD2C00?style=flat-square&logo=firebase&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Zod](https://img.shields.io/badge/Zod-3E67B1?style=flat-square&logo=zod&logoColor=white)
-
-</div>
+<table>
+<tr>
+  <td width="150" valign="middle"><b>Languages</b></td>
+  <td valign="middle">
+    <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
+    <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript">
+    <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white" alt="SQL">
+  </td>
+</tr>
+<tr>
+  <td valign="middle"><b>Frontend</b></td>
+  <td valign="middle">
+    <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js">
+    <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React">
+    <img src="https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white" alt="Expo">
+    <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite">
+    <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS">
+    <img src="https://img.shields.io/badge/shadcn%2Fui-000000?style=flat-square&logo=shadcnui&logoColor=white" alt="shadcn/ui">
+    <img src="https://img.shields.io/badge/Motion-FFE01B?style=flat-square&logo=framer&logoColor=black" alt="Motion">
+  </td>
+</tr>
+<tr>
+  <td valign="middle"><b>Backend</b></td>
+  <td valign="middle">
+    <img src="https://img.shields.io/badge/Fastify-000000?style=flat-square&logo=fastify&logoColor=white" alt="Fastify">
+    <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI">
+    <img src="https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js">
+    <img src="https://img.shields.io/badge/Socket.io-010101?style=flat-square&logo=socketdotio&logoColor=white" alt="Socket.io">
+    <img src="https://img.shields.io/badge/pg--boss-336791?style=flat-square&logo=postgresql&logoColor=white" alt="pg-boss">
+  </td>
+</tr>
+<tr>
+  <td valign="middle"><b>Data</b></td>
+  <td valign="middle">
+    <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL">
+    <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white" alt="Prisma">
+    <img src="https://img.shields.io/badge/Zod-3E67B1?style=flat-square&logo=zod&logoColor=white" alt="Zod">
+  </td>
+</tr>
+<tr>
+  <td valign="middle"><b>Infra &amp; Tooling</b></td>
+  <td valign="middle">
+    <img src="https://img.shields.io/badge/Turborepo-EF4444?style=flat-square&logo=turborepo&logoColor=white" alt="Turborepo">
+    <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions">
+    <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker">
+    <img src="https://img.shields.io/badge/Firebase-DD2C00?style=flat-square&logo=firebase&logoColor=white" alt="Firebase">
+    <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git">
+  </td>
+</tr>
+<tr>
+  <td valign="middle"><b>AI</b></td>
+  <td valign="middle">
+    <img src="https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" alt="Gemini">
+    <img src="https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=anthropic&logoColor=white" alt="Claude">
+    <img src="https://img.shields.io/badge/Offline%20STT%2FTTS-22D3EE?style=flat-square&logo=audiomack&logoColor=black" alt="Offline STT/TTS">
+  </td>
+</tr>
+</table>
 
 ---
 
