@@ -8,6 +8,7 @@
 
 <a href="https://www.linkedin.com/in/kumud-ranjan-490258399/"><img src="https://img.shields.io/badge/LinkedIn-Connect-C9A24B?style=for-the-badge&labelColor=14100A&logo=linkedin&logoColor=E8C874" alt="LinkedIn"></a>
 <a href="https://x.com/STARSAVER6127"><img src="https://img.shields.io/badge/X-@STARSAVER6127-C9A24B?style=for-the-badge&labelColor=14100A&logo=x&logoColor=E8C874" alt="X"></a>
+<a href="https://www.instagram.com/starsaver6127/"><img src="https://img.shields.io/badge/Instagram-@starsaver6127-C9A24B?style=for-the-badge&labelColor=14100A&logo=instagram&logoColor=E8C874" alt="Instagram"></a>
 <a href="https://mail.google.com/mail/?view=cm&fs=1&to=kumudranjan6127@gmail.com&su=Hello%20Kumud"><img src="https://img.shields.io/badge/Email-Reach%20out-C9A24B?style=for-the-badge&labelColor=14100A&logo=gmail&logoColor=E8C874" alt="Email"></a>
 
 </div>
@@ -146,6 +147,7 @@ A personal AI assistant for Windows that listens, answers aloud, and safely cont
 
 <a href="https://www.linkedin.com/in/kumud-ranjan-490258399/"><img src="https://img.shields.io/badge/LinkedIn-C9A24B?style=for-the-badge&labelColor=14100A&logo=linkedin&logoColor=E8C874" alt="LinkedIn"></a>
 <a href="https://x.com/STARSAVER6127"><img src="https://img.shields.io/badge/X-C9A24B?style=for-the-badge&labelColor=14100A&logo=x&logoColor=E8C874" alt="X"></a>
+<a href="https://www.instagram.com/starsaver6127/"><img src="https://img.shields.io/badge/Instagram-C9A24B?style=for-the-badge&labelColor=14100A&logo=instagram&logoColor=E8C874" alt="Instagram"></a>
 <a href="https://mail.google.com/mail/?view=cm&fs=1&to=kumudranjan6127@gmail.com&su=Hello%20Kumud"><img src="https://img.shields.io/badge/Gmail-C9A24B?style=for-the-badge&labelColor=14100A&logo=gmail&logoColor=E8C874" alt="Email"></a>
 
 <br/>
