@@ -16,16 +16,15 @@
 
 ## ◢ About
 
-I build **systems that keep running after I close the laptop** — hyperlocal delivery
-infrastructure, content pipelines nobody has to click, and voice agents that stay inside
-their sandbox. Most of my work lives at the seam where a clean API meets a real deadline.
+I build **systems that keep running after I close the laptop** — content pipelines nobody
+has to click, and voice agents that stay inside their sandbox. Most of my work lives at
+the seam where a clean API meets a real deadline.
 
 ```ts
 const kumud = {
   role:   "Full-Stack Engineer",
-  focus:  ["production platforms", "AI agents", "hands-off automation"],
-  stack:  ["TypeScript", "Python", "Next.js", "Fastify", "Prisma", "Expo"],
-  method: "Spec first, contracts second, code third.",
+  focus:  ["AI agents", "hands-off automation", "web platforms"],
+  stack:  ["TypeScript", "Python", "Java", "React", "FastAPI", "Node.js"],
   belief: "A system you have to babysit isn't finished.",
 } as const;
 ```
@@ -33,15 +32,15 @@ const kumud = {
 <table>
 <tr>
   <td width="140"><b>▸ Building</b></td>
-  <td><a href="https://github.com/kumudranjan6127-debug/Medirush"><b>Medirush</b></a> — licensed hyperlocal pharmacy platform, one Fastify API serving a PWA, an ops panel, and a driver app off a shared contracts package.</td>
+  <td><a href="https://github.com/kumudranjan6127-debug/JARVIS"><b>JARVIS</b></a> — a Windows assistant that listens, answers aloud, and controls apps. Offline speech, allowlist-gated execution, 132 tests green.</td>
 </tr>
 <tr>
   <td><b>▸ Automating</b></td>
   <td><a href="https://github.com/kumudranjan6127-debug/servio-social"><b>servio-social</b></a> — Gemini writes it, Buffer ships it, GitHub Actions fires at 09:00 IST. Nobody in the loop.</td>
 </tr>
 <tr>
-  <td><b>▸ Exploring</b></td>
-  <td><a href="https://github.com/kumudranjan6127-debug/JARVIS"><b>JARVIS</b></a> — offline speech and allowlist-gated agent execution. Your voice never leaves the machine.</td>
+  <td><b>▸ Writing in</b></td>
+  <td>TypeScript, Python, and Java — across web front-ends, Python services, and automation.</td>
 </tr>
 <tr>
   <td><b>▸ Open to</b></td>
@@ -59,8 +58,8 @@ const kumud = {
   <td valign="middle">
     <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
     <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+    <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java">
     <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript">
-    <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white" alt="SQL">
   </td>
 </tr>
 <tr>
@@ -68,7 +67,6 @@ const kumud = {
   <td valign="middle">
     <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js">
     <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React">
-    <img src="https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white" alt="Expo">
     <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite">
     <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS">
     <img src="https://img.shields.io/badge/shadcn%2Fui-000000?style=flat-square&logo=shadcnui&logoColor=white" alt="shadcn/ui">
@@ -77,27 +75,14 @@ const kumud = {
 <tr>
   <td valign="middle"><b>Backend</b></td>
   <td valign="middle">
-    <img src="https://img.shields.io/badge/Fastify-000000?style=flat-square&logo=fastify&logoColor=white" alt="Fastify">
     <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI">
     <img src="https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js">
-    <img src="https://img.shields.io/badge/Socket.io-010101?style=flat-square&logo=socketdotio&logoColor=white" alt="Socket.io">
-    <img src="https://img.shields.io/badge/pg--boss-336791?style=flat-square&logo=postgresql&logoColor=white" alt="pg-boss">
   </td>
 </tr>
 <tr>
-  <td valign="middle"><b>Data</b></td>
+  <td valign="middle"><b>Tooling</b></td>
   <td valign="middle">
-    <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL">
-    <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white" alt="Prisma">
-    <img src="https://img.shields.io/badge/Zod-3E67B1?style=flat-square&logo=zod&logoColor=white" alt="Zod">
-  </td>
-</tr>
-<tr>
-  <td valign="middle"><b>Infra &amp; Tooling</b></td>
-  <td valign="middle">
-    <img src="https://img.shields.io/badge/Turborepo-EF4444?style=flat-square&logo=turborepo&logoColor=white" alt="Turborepo">
     <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions">
-    <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker">
     <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git">
   </td>
 </tr>
@@ -119,10 +104,10 @@ const kumud = {
 <tr>
 <td width="50%" valign="top">
 
-### [◈ Medirush](https://github.com/kumudranjan6127-debug/Medirush)
-40-minute medicine & supplement delivery on a licensed, hyperlocal dark-store model (≤5 km). Turborepo monorepo splitting one Fastify API from a customer PWA, an ops panel, and a driver app — with a shared contracts package as the single source of truth.
+### [◈ servio-social](https://github.com/kumudranjan6127-debug/servio-social)
+A social pipeline that runs itself. Gemini writes the posts, Buffer publishes them, GitHub Actions fires daily at 09:00 IST — and a secret-scanning workflow guards the credentials. Nobody clicks anything.
 
-`Fastify 5` `Prisma 6` `Next.js` `Expo` `Socket.io` `pg-boss`
+`TypeScript` `GitHub Actions` `Gemini` `Buffer`
 
 </td>
 <td width="50%" valign="top">
@@ -134,25 +119,9 @@ A personal AI assistant for Windows that listens, answers aloud, and safely cont
 
 </td>
 </tr>
-<tr>
-<td width="50%" valign="top">
-
-### [◈ servio-social](https://github.com/kumudranjan6127-debug/servio-social)
-A social pipeline that runs itself. Gemini writes the posts, Buffer publishes them, GitHub Actions fires daily at 09:00 IST — and a secret-scanning workflow guards the credentials. Nobody clicks anything.
-
-`TypeScript` `GitHub Actions` `Gemini` `Buffer`
-
-</td>
-<td width="50%" valign="top">
-
-### [◈ VeritasAI](https://github.com/kumudranjan6127-debug/VeritasAI)
-A dashboard on a Python service — Vite + React on the front, FastAPI handling the backend routes.
-
-`React` `Vite` `FastAPI` `Python`
-
-</td>
-</tr>
 </table>
+
+> Also: **[VeritasAI](https://github.com/kumudranjan6127-debug/VeritasAI)** — a Vite + React dashboard on a FastAPI backend.
 
 <img src="assets/divider.svg" alt="" width="100%" />
 
