@@ -6,10 +6,6 @@
 
 <br/>
 
-<img src="assets/terminal.svg" alt="kumud@github — whoami · stack --top · now" width="100%" />
-
-<br/>
-
 <a href="https://www.linkedin.com/in/kumud-ranjan-490258399/"><img src="https://img.shields.io/badge/LinkedIn-Connect-C9A24B?style=for-the-badge&labelColor=14100A&logo=linkedin&logoColor=E8C874" alt="LinkedIn"></a>
 <a href="https://x.com/STARSAVER6127"><img src="https://img.shields.io/badge/X-@STARSAVER6127-C9A24B?style=for-the-badge&labelColor=14100A&logo=x&logoColor=E8C874" alt="X"></a>
 <a href="mailto:kumudranjan6127@gmail.com"><img src="https://img.shields.io/badge/Email-Reach%20out-C9A24B?style=for-the-badge&labelColor=14100A&logo=gmail&logoColor=E8C874" alt="Email"></a>
