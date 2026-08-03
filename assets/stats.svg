@@ -1,74 +1,69 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 220" width="480" height="220" role="img" aria-label="GitHub statistics">
-  <title>GitHub Stats — 6 stars, 151 commits, 52 pull requests</title>
-
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 220" width="480" height="220" role="img" aria-label="GitHub Stats — 6 stars, 156 commits, 52 pull requests">
+  <title>GitHub Stats — 6 stars, 156 commits, 52 pull requests</title>
   <defs>
-    <linearGradient id="scard" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%"   stop-color="#0F0C08"/>
-      <stop offset="100%" stop-color="#15110B"/>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0F0C08"/><stop offset="100%" stop-color="#15110B"/>
     </linearGradient>
-    <linearGradient id="sedge" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%"   stop-color="#C9A24B" stop-opacity=".45"/>
-      <stop offset="50%"  stop-color="#C9A24B" stop-opacity=".14"/>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#C9A24B" stop-opacity=".45"/>
+      <stop offset="50%" stop-color="#C9A24B" stop-opacity=".14"/>
       <stop offset="100%" stop-color="#C9A24B" stop-opacity=".45"/>
     </linearGradient>
-    <linearGradient id="srule" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%"   stop-color="#C9A24B" stop-opacity=".8"/>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#C9A24B" stop-opacity=".8"/>
       <stop offset="100%" stop-color="#C9A24B" stop-opacity="0"/>
     </linearGradient>
+    <clipPath id="barclip"><rect x="28" y="66" width="424" height="16" rx="8"/></clipPath>
+    <clipPath id="wipeclip"><rect class="wipe" x="28" y="60" width="0" height="30"/></clipPath>
   </defs>
-
   <style>
     .mono { font-family: "JetBrains Mono","SF Mono","Fira Code",ui-monospace,Consolas,monospace; }
-    .lbl  { font-size: 10.5px; letter-spacing: 1.4px; fill: #8A7A5C; }
-    .val  { font-size: 24px; font-weight: 700; fill: #E8C874; }
-    .hdr  { font-size: 12px; letter-spacing: 2.6px; fill: #C9A24B; }
-
-    .item { opacity: 0; animation: pop .7s cubic-bezier(.2,.7,.3,1) forwards; }
-    @keyframes pop { from { opacity: 0; transform: translateY(8px);} to { opacity: 1; transform: translateY(0);} }
-
+    .lbl { font-size: 10.5px; letter-spacing: 1.4px; fill: #8A7A5C; }
+    .val { font-size: 24px; font-weight: 700; fill: #E8C874; }
+    .hdr { font-size: 12px; letter-spacing: 2.6px; fill: #C9A24B; }
+    .nm  { font-size: 11.5px; fill: #D6C9A8; }
+    .pc  { font-size: 11.5px; fill: #8A7A5C; }
+    .item, .leg { opacity: 0; animation: pop .7s cubic-bezier(.2,.7,.3,1) forwards; }
+    @keyframes pop { from { opacity:0; transform: translateY(8px);} to { opacity:1; transform: translateY(0);} }
     .ruleIn { transform-origin: 0 0; transform: scaleX(0); animation: rin 1s ease .1s forwards; }
     @keyframes rin { to { transform: scaleX(1); } }
-
-    .spark { animation: spark 4s ease-in-out infinite; }
-    @keyframes spark { 0%,100%{opacity:.35} 50%{opacity:.9} }
-
+    .wipe { animation: fill 1.5s cubic-bezier(.55,.05,.2,1) .25s forwards; }
+    @keyframes fill { to { width: 424px; } }
+    .spark, .dot { animation: glow 3.8s ease-in-out infinite; }
+    @keyframes glow { 0%,100%{opacity:.4} 50%{opacity:1} }
     @media (prefers-reduced-motion: reduce) {
-      .item { opacity: 1; animation: none; }
-      .ruleIn { transform: scaleX(1); animation: none; }
-      .spark { animation: none; }
+      .item,.leg { opacity:1; animation:none; }
+      .ruleIn { transform: scaleX(1); animation:none; }
+      .wipe { width: 424px; animation:none; }
+      .spark,.dot { animation:none; }
     }
   </style>
-
-  <rect x=".8" y=".8" width="478.4" height="218.4" rx="11" fill="url(#scard)" stroke="url(#sedge)" stroke-width="1.2"/>
-
+  <rect x=".8" y=".8" width="478.4" height="218.4" rx="11" fill="url(#card)" stroke="url(#edge)" stroke-width="1.2"/>
   <text class="mono hdr" x="28" y="36">◢ GITHUB STATS</text>
-  <rect class="ruleIn" x="28" y="46" width="424" height="1.2" fill="url(#srule)"/>
+  <rect class="ruleIn" x="28" y="46" width="424" height="1.2" fill="url(#rule)"/>
   <circle class="spark" cx="440" cy="32" r="3" fill="#E8C874"/>
-
-  <g class="item" style="animation-delay:.10s">
-    <text class="mono lbl" x="28"  y="82">TOTAL STARS</text>
-    <text class="mono val" x="28"  y="108">6</text>
+  <g class="item" style="animation-delay:0.1s">
+    <text class="mono lbl" x="28" y="82">TOTAL STARS</text>
+    <text class="mono val" x="28" y="108">6</text>
   </g>
-  <g class="item" style="animation-delay:.18s">
+  <g class="item" style="animation-delay:0.18s">
     <text class="mono lbl" x="262" y="82">REPOSITORIES</text>
     <text class="mono val" x="262" y="108">5</text>
   </g>
-
-  <g class="item" style="animation-delay:.26s">
-    <text class="mono lbl" x="28"  y="140">COMMITS (2026)</text>
-    <text class="mono val" x="28"  y="166">151</text>
+  <g class="item" style="animation-delay:0.26s">
+    <text class="mono lbl" x="28" y="140">COMMITS (2026)</text>
+    <text class="mono val" x="28" y="166">156</text>
   </g>
-  <g class="item" style="animation-delay:.34s">
+  <g class="item" style="animation-delay:0.34s">
     <text class="mono lbl" x="262" y="140">CONTRIBUTIONS</text>
-    <text class="mono val" x="262" y="166">211</text>
+    <text class="mono val" x="262" y="166">216</text>
   </g>
-
-  <g class="item" style="animation-delay:.42s">
-    <text class="mono lbl" x="28"  y="196">PULL REQUESTS</text>
+  <g class="item" style="animation-delay:0.42s">
+    <text class="mono lbl" x="28" y="196">PULL REQUESTS</text>
     <text class="mono val" x="140" y="196" font-size="17">52</text>
   </g>
-  <g class="item" style="animation-delay:.50s">
+  <g class="item" style="animation-delay:0.5s">
     <text class="mono lbl" x="262" y="196">FOLLOWERS</text>
-    <text class="mono val" x="356" y="196" font-size="17">2</text>
+    <text class="mono val" x="374" y="196" font-size="17">2</text>
   </g>
 </svg>

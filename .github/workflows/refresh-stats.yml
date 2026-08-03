@@ -1,0 +1,49 @@
+name: Refresh stats cards
+
+on:
+  schedule:
+    # 03:17 UTC daily — 08:47 IST
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+  push:
+    paths:
+      - "scripts/gen-stats.mjs"
+      - ".github/workflows/refresh-stats.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-stats
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Regenerate cards
+        env:
+          # STATS_TOKEN is a classic PAT with read:user + repo.
+          # Without it the built-in token is used, which cannot see private
+          # repos — language percentages will then reflect public code only.
+          GITHUB_TOKEN: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
+          LOGIN: ${{ github.repository_owner }}
+        run: node scripts/gen-stats.mjs
+
+      - name: Commit if changed
+        run: |
+          if [ -z "$(git status --porcelain assets)" ]; then
+            echo "No change in stats — nothing to commit."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/stats.svg assets/langs.svg
+          git commit -m "chore: refresh stats cards [skip ci]"
+          git push

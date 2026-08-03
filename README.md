@@ -124,6 +124,23 @@ A personal AI assistant for Windows that listens, answers aloud, and safely cont
 
 > Also: **[VeritasAI](https://github.com/kumudranjan6127-debug/VeritasAI)** — a Vite + React dashboard on a FastAPI backend.
 
+<!--
+  ▸ DEMO SLOT — drop a JARVIS screen recording at assets/jarvis-demo.gif,
+    then delete these two comment markers to publish it.
+    Record 8–12s with ScreenToGif or ShareX; keep it under ~5 MB.
+
+<div align="center">
+
+### ◢ JARVIS, running
+
+<img src="assets/jarvis-demo.gif" alt="JARVIS responding to a voice command" width="80%" />
+
+<sub>Speak to it · it answers aloud · it opens the app — all speech stays on the machine</sub>
+
+</div>
+-->
+
+
 <img src="assets/divider.svg" alt="" width="100%" />
 
 ## ◢ By the Numbers
