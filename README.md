@@ -2,11 +2,11 @@
 
 <!-- ─────────────────────────  HEADER  ───────────────────────── -->
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:14100A,50:6B531F,100:C9A24B&height=200&section=header&text=KUMUD%20RANJAN&fontSize=52&fontColor=E8C874&fontAlignY=36&desc=Full-Stack%20%C2%B7%20AI%20Systems%20%C2%B7%20Automation&descAlignY=58&descSize=16&animation=fadeIn" alt="Kumud Ranjan" width="100%" />
+<img src="assets/hero.svg" alt="Kumud Ranjan — Full-Stack Engineer · AI Systems · Automation" width="100%" />
 
-<a href="https://servio-0.web.app/">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1200&color=C9A24B&center=true&vCenter=true&width=620&lines=I+build+systems+that+run+without+me.;Fastify+%C2%B7+Next.js+%C2%B7+Prisma+%C2%B7+Expo+%C2%B7+Python;Ship+it%2C+automate+it%2C+forget+it." alt="Typing SVG" />
-</a>
+<br/>
+
+<img src="assets/terminal.svg" alt="kumud@github — whoami · stack --top · now" width="100%" />
 
 <br/>
 
@@ -17,7 +17,7 @@
 
 </div>
 
----
+<img src="assets/divider.svg" alt="" width="100%" />
 
 ## ◢ About
 
@@ -54,7 +54,7 @@ const kumud = {
 </tr>
 </table>
 
----
+<img src="assets/divider.svg" alt="" width="100%" />
 
 ## ◢ Tech Stack
 
@@ -118,7 +118,7 @@ const kumud = {
 </tr>
 </table>
 
----
+<img src="assets/divider.svg" alt="" width="100%" />
 
 ## ◢ Selected Work
 
@@ -163,7 +163,7 @@ A production SaaS marketing site built from a Figma design and shipped to Fireba
 
 > Also: **[VeritasAI](https://github.com/kumudranjan6127-debug/VeritasAI)** — a React dashboard on a FastAPI backend.
 
----
+<img src="assets/divider.svg" alt="" width="100%" />
 
 ## ◢ By the Numbers
 
@@ -182,7 +182,7 @@ A production SaaS marketing site built from a Figma design and shipped to Fireba
 
 </div>
 
----
+<img src="assets/divider.svg" alt="" width="100%" />
 
 <div align="center">
 
@@ -193,8 +193,8 @@ A production SaaS marketing site built from a Figma design and shipped to Fireba
 <a href="https://x.com/STARSAVER6127"><img src="https://img.shields.io/badge/X-C9A24B?style=for-the-badge&labelColor=14100A&logo=x&logoColor=E8C874" alt="X"></a>
 <a href="mailto:kumudranjan6127@gmail.com"><img src="https://img.shields.io/badge/Gmail-C9A24B?style=for-the-badge&labelColor=14100A&logo=gmail&logoColor=E8C874" alt="Email"></a>
 
-<sub>`build · ship · automate · repeat`</sub>
+<br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:C9A24B,50:6B531F,100:14100A&height=120&section=footer" width="100%" alt="" />
+<img src="assets/footer.svg" alt="build · ship · automate · repeat" width="100%" />
 
 </div>

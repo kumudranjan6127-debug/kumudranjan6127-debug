@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 250" width="1000" height="250" role="img" aria-label="Terminal session introducing Kumud Ranjan">
+  <title>kumud@github — whoami, stack, now</title>
+
+  <defs>
+    <linearGradient id="chrome" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1B1710"/>
+      <stop offset="100%" stop-color="#131009"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#C9A24B" stop-opacity=".15"/>
+      <stop offset="50%"  stop-color="#C9A24B" stop-opacity=".55"/>
+      <stop offset="100%" stop-color="#C9A24B" stop-opacity=".15"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .mono { font-family: "JetBrains Mono", "SF Mono", "Fira Code", ui-monospace, Consolas, monospace;
+            font-size: 15px; }
+    .ps   { fill: #C9A24B; }
+    .cmd  { fill: #E8DCC0; }
+    .out  { fill: #9FE8C8; }
+    .dim  { fill: #8A7A5C; }
+
+    /* Each line is revealed by its own clip rect — real per-character typing cadence */
+    .r1 { animation: k1 16s steps(8)  infinite; }
+    .r2 { animation: k2 16s steps(29) infinite; }
+    .r3 { animation: k3 16s steps(13) infinite; }
+    .r4 { animation: k4 16s steps(56) infinite; }
+    .r5 { animation: k5 16s steps(5)  infinite; }
+    .r6 { animation: k6 16s steps(48) infinite; }
+
+    @keyframes k1 { 0%,3%{width:0}   8%,94%{width:72px}  94.1%,100%{width:0} }
+    @keyframes k2 { 0%,10%{width:0}  21%,94%{width:262px} 94.1%,100%{width:0} }
+    @keyframes k3 { 0%,24%{width:0}  30%,94%{width:118px} 94.1%,100%{width:0} }
+    @keyframes k4 { 0%,32%{width:0}  51%,94%{width:506px} 94.1%,100%{width:0} }
+    @keyframes k5 { 0%,54%{width:0}  57%,94%{width:46px}  94.1%,100%{width:0} }
+    @keyframes k6 { 0%,59%{width:0}  76%,94%{width:434px} 94.1%,100%{width:0} }
+
+    .caret { fill: #E8C874; animation: blink 1.05s steps(1) infinite; }
+    @keyframes blink { 0%,49%{opacity:1} 50%,100%{opacity:0} }
+
+    .breathe { animation: breathe 5s ease-in-out infinite; }
+    @keyframes breathe { 0%,100%{opacity:.55} 50%{opacity:1} }
+
+    @media (prefers-reduced-motion: reduce) {
+      .r1,.r2,.r3,.r4,.r5,.r6 { animation: none; width: 560px; }
+      .caret, .breathe { animation: none; }
+    }
+  </style>
+
+  <rect x="1" y="1" width="998" height="248" rx="12" fill="url(#chrome)" stroke="url(#edge)" stroke-width="1.2"/>
+  <path d="M13 42h974" stroke="#C9A24B" stroke-opacity=".22" stroke-width="1"/>
+
+  <g class="breathe">
+    <circle cx="34" cy="22" r="5.5" fill="#E05561"/>
+    <circle cx="54" cy="22" r="5.5" fill="#E8C874"/>
+    <circle cx="74" cy="22" r="5.5" fill="#7FD69A"/>
+  </g>
+  <text class="mono dim" x="500" y="27" text-anchor="middle" font-size="12.5" letter-spacing="1.6">kumud@github — zsh</text>
+
+  <clipPath id="c1"><rect class="r1" x="30" y="60"  width="0" height="22"/></clipPath>
+  <clipPath id="c2"><rect class="r2" x="30" y="86"  width="0" height="22"/></clipPath>
+  <clipPath id="c3"><rect class="r3" x="30" y="114" width="0" height="22"/></clipPath>
+  <clipPath id="c4"><rect class="r4" x="30" y="140" width="0" height="22"/></clipPath>
+  <clipPath id="c5"><rect class="r5" x="30" y="168" width="0" height="22"/></clipPath>
+  <clipPath id="c6"><rect class="r6" x="30" y="194" width="0" height="22"/></clipPath>
+
+  <g clip-path="url(#c1)"><text class="mono" x="30" y="76"><tspan class="ps">$ </tspan><tspan class="cmd">whoami</tspan></text></g>
+  <g clip-path="url(#c2)"><text class="mono out" x="30" y="102">kumud — full-stack engineer</text></g>
+
+  <g clip-path="url(#c3)"><text class="mono" x="30" y="130"><tspan class="ps">$ </tspan><tspan class="cmd">stack --top</tspan></text></g>
+  <g clip-path="url(#c4)"><text class="mono out" x="30" y="156">typescript · python · next.js · fastify · prisma · expo</text></g>
+
+  <g clip-path="url(#c5)"><text class="mono" x="30" y="184"><tspan class="ps">$ </tspan><tspan class="cmd">now</tspan></text></g>
+  <g clip-path="url(#c6)"><text class="mono out" x="30" y="210">building medirush — 40-minute medicine delivery</text></g>
+
+  <rect class="caret" x="30" y="222" width="9" height="17" rx="1"/>
+</svg>
