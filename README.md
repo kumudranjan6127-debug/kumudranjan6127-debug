@@ -10,7 +10,6 @@
 
 <br/>
 
-<a href="https://servio-0.web.app/"><img src="https://img.shields.io/badge/Portfolio-servio--0.web.app-C9A24B?style=for-the-badge&labelColor=14100A&logo=googlechrome&logoColor=E8C874" alt="Portfolio"></a>
 <a href="https://www.linkedin.com/in/kumud-ranjan-490258399/"><img src="https://img.shields.io/badge/LinkedIn-Connect-C9A24B?style=for-the-badge&labelColor=14100A&logo=linkedin&logoColor=E8C874" alt="LinkedIn"></a>
 <a href="https://x.com/STARSAVER6127"><img src="https://img.shields.io/badge/X-@STARSAVER6127-C9A24B?style=for-the-badge&labelColor=14100A&logo=x&logoColor=E8C874" alt="X"></a>
 <a href="mailto:kumudranjan6127@gmail.com"><img src="https://img.shields.io/badge/Email-Reach%20out-C9A24B?style=for-the-badge&labelColor=14100A&logo=gmail&logoColor=E8C874" alt="Email"></a>
@@ -77,7 +76,6 @@ const kumud = {
     <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite">
     <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS">
     <img src="https://img.shields.io/badge/shadcn%2Fui-000000?style=flat-square&logo=shadcnui&logoColor=white" alt="shadcn/ui">
-    <img src="https://img.shields.io/badge/Motion-FFE01B?style=flat-square&logo=framer&logoColor=black" alt="Motion">
   </td>
 </tr>
 <tr>
@@ -104,7 +102,6 @@ const kumud = {
     <img src="https://img.shields.io/badge/Turborepo-EF4444?style=flat-square&logo=turborepo&logoColor=white" alt="Turborepo">
     <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions">
     <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker">
-    <img src="https://img.shields.io/badge/Firebase-DD2C00?style=flat-square&logo=firebase&logoColor=white" alt="Firebase">
     <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git">
   </td>
 </tr>
@@ -145,23 +142,21 @@ A personal AI assistant for Windows that listens, answers aloud, and safely cont
 <td width="50%" valign="top">
 
 ### [◈ servio-social](https://github.com/kumudranjan6127-debug/servio-social)
-Fully autonomous social media for Servio. Gemini writes the posts, Buffer publishes them, GitHub Actions fires daily at 09:00 IST — and a secret-scanning workflow guards the pipeline. Nobody clicks anything.
+A social pipeline that runs itself. Gemini writes the posts, Buffer publishes them, GitHub Actions fires daily at 09:00 IST — and a secret-scanning workflow guards the credentials. Nobody clicks anything.
 
 `TypeScript` `GitHub Actions` `Gemini` `Buffer`
 
 </td>
 <td width="50%" valign="top">
 
-### [◈ Servio](https://servio-0.web.app/)
-A production SaaS marketing site built from a Figma design and shipped to Firebase Hosting — motion-driven, component-driven, and pixel-faithful.
+### [◈ VeritasAI](https://github.com/kumudranjan6127-debug/VeritasAI)
+A dashboard on a Python service — Vite + React on the front, FastAPI handling the backend routes.
 
-`React` `Vite` `Tailwind v4` `shadcn/ui` `Motion`
+`React` `Vite` `FastAPI` `Python`
 
 </td>
 </tr>
 </table>
-
-> Also: **[VeritasAI](https://github.com/kumudranjan6127-debug/VeritasAI)** — a React dashboard on a FastAPI backend.
 
 <img src="assets/divider.svg" alt="" width="100%" />
 
@@ -188,7 +183,6 @@ A production SaaS marketing site built from a Figma design and shipped to Fireba
 
 ### ◢ Let's build something
 
-<a href="https://servio-0.web.app/"><img src="https://img.shields.io/badge/Portfolio-C9A24B?style=for-the-badge&labelColor=14100A&logo=googlechrome&logoColor=E8C874" alt="Portfolio"></a>
 <a href="https://www.linkedin.com/in/kumud-ranjan-490258399/"><img src="https://img.shields.io/badge/LinkedIn-C9A24B?style=for-the-badge&labelColor=14100A&logo=linkedin&logoColor=E8C874" alt="LinkedIn"></a>
 <a href="https://x.com/STARSAVER6127"><img src="https://img.shields.io/badge/X-C9A24B?style=for-the-badge&labelColor=14100A&logo=x&logoColor=E8C874" alt="X"></a>
 <a href="mailto:kumudranjan6127@gmail.com"><img src="https://img.shields.io/badge/Gmail-C9A24B?style=for-the-badge&labelColor=14100A&logo=gmail&logoColor=E8C874" alt="Email"></a>
