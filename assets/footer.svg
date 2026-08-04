@@ -1,52 +1,63 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 160" width="1000" height="160" role="img" aria-label="build · ship · automate · repeat">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 170" width="1000" height="170" role="img" aria-label="build · ship · automate · repeat">
   <title>build · ship · automate · repeat</title>
 
   <defs>
     <linearGradient id="fbg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%"   stop-color="#090806"/>
-      <stop offset="100%" stop-color="#14100A"/>
+      <stop offset="0%"   stop-color="#070D18"/>
+      <stop offset="100%" stop-color="#0E2438"/>
     </linearGradient>
     <linearGradient id="wave" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%"   stop-color="#7A5E1E" stop-opacity=".5"/>
-      <stop offset="50%"  stop-color="#C9A24B" stop-opacity=".8"/>
-      <stop offset="100%" stop-color="#7A5E1E" stop-opacity=".5"/>
+      <stop offset="0%"   stop-color="#0891B2" stop-opacity=".45"/>
+      <stop offset="50%"  stop-color="#22D3EE" stop-opacity=".8"/>
+      <stop offset="100%" stop-color="#0891B2" stop-opacity=".45"/>
     </linearGradient>
+    <radialGradient id="fcore" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#E8FCFF"/>
+      <stop offset="40%"  stop-color="#67E8F9" stop-opacity=".8"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
     <linearGradient id="fadef" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%"   stop-color="#fff" stop-opacity="0"/>
       <stop offset="20%"  stop-color="#fff" stop-opacity="1"/>
       <stop offset="80%"  stop-color="#fff" stop-opacity="1"/>
       <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
     </linearGradient>
-    <mask id="fmask"><rect width="1000" height="160" fill="url(#fadef)"/></mask>
+    <mask id="fmask"><rect width="1000" height="170" fill="url(#fadef)"/></mask>
   </defs>
 
   <style>
     .mono { font-family: "JetBrains Mono","SF Mono","Fira Code",ui-monospace,Consolas,monospace; }
-    .w1 { animation: roll 11s linear infinite; }
-    .w2 { animation: roll 17s linear infinite reverse; }
-    @keyframes roll { from { transform: translateX(0);} to { transform: translateX(-500px);} }
-
-    .cyc  { animation: cyc 8s ease-in-out infinite; }
-    @keyframes cyc { 0%,100%{opacity:.45} 50%{opacity:1} }
-
-    .orb { transform-origin: 500px 118px; animation: orbit 12s linear infinite; }
-    @keyframes orbit { from{transform:rotate(0)} to{transform:rotate(360deg)} }
-
-    @media (prefers-reduced-motion: reduce) { .w1,.w2,.cyc,.orb { animation: none; } }
+    .w1 { animation: roll 12s linear infinite; }
+    .w2 { animation: roll 18s linear infinite reverse; }
+    @keyframes roll { from{transform:translateX(0)} to{transform:translateX(-500px)} }
+    .cyc { animation: cyc 7s ease-in-out infinite; }
+    @keyframes cyc { 0%,100%{opacity:.5} 50%{opacity:1} }
+    .ring { transform-origin: 500px 120px; animation: spin 16s linear infinite; }
+    .ring2 { transform-origin: 500px 120px; animation: spin 11s linear infinite reverse; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .beat { transform-origin: 500px 120px; animation: beat 2.8s ease-in-out infinite; }
+    @keyframes beat { 0%,100%{ transform:scale(.9); opacity:.7 } 50%{ transform:scale(1.1); opacity:1 } }
+    @media (prefers-reduced-motion: reduce) { .w1,.w2,.cyc,.ring,.ring2,.beat { animation:none } }
   </style>
 
-  <rect width="1000" height="160" fill="url(#fbg)"/>
+  <rect width="1000" height="170" fill="url(#fbg)"/>
 
   <g mask="url(#fmask)" opacity=".5">
-    <g class="w1"><path d="M0 96q125 -30 250 0t250 0 250 0 250 0 250 0v70H0z" fill="url(#wave)" opacity=".35"/></g>
-    <g class="w2"><path d="M0 112q125 26 250 0t250 0 250 0 250 0 250 0v50H0z" fill="url(#wave)" opacity=".28"/></g>
+    <g class="w1"><path d="M0 104q125-30 250 0t250 0 250 0 250 0 250 0v70H0z" fill="url(#wave)" opacity=".32"/></g>
+    <g class="w2"><path d="M0 120q125 26 250 0t250 0 250 0 250 0 250 0v50H0z" fill="url(#wave)" opacity=".26"/></g>
   </g>
 
-  <text class="mono cyc" x="500" y="52" text-anchor="middle" font-size="15" letter-spacing="6.5" fill="#C9A24B">
-    BUILD<tspan fill="#5C4E36"> · </tspan>SHIP<tspan fill="#5C4E36"> · </tspan>AUTOMATE<tspan fill="#5C4E36"> · </tspan>REPEAT
+  <text class="mono cyc" x="500" y="50" text-anchor="middle" font-size="15" letter-spacing="6.5" fill="#22D3EE">
+    BUILD<tspan fill="#2E5A70"> · </tspan>SHIP<tspan fill="#2E5A70"> · </tspan>AUTOMATE<tspan fill="#2E5A70"> · </tspan>REPEAT
   </text>
 
-  <g class="orb"><circle cx="500" cy="76" r="2.6" fill="#E8C874"/></g>
-  <circle cx="500" cy="118" r="42" fill="none" stroke="#C9A24B" stroke-opacity=".18" stroke-width="1"/>
-  <text class="mono" x="500" y="124" text-anchor="middle" font-size="12" letter-spacing="2" fill="#8A7A5C">thanks for scrolling</text>
+  <g class="ring">
+    <circle cx="500" cy="120" r="40" fill="none" stroke="#22D3EE" stroke-opacity=".35" stroke-width="1.2" stroke-dasharray="14 8"/>
+  </g>
+  <g class="ring2">
+    <circle cx="500" cy="120" r="29" fill="none" stroke="#0EA5E9" stroke-opacity=".45" stroke-width="1" stroke-dasharray="4 6"/>
+  </g>
+  <g class="beat"><circle cx="500" cy="120" r="13" fill="url(#fcore)"/></g>
+
+  <text class="mono" x="500" y="163" text-anchor="middle" font-size="10.5" letter-spacing="2.4" fill="#3E6E85">SYSTEMS ONLINE</text>
 </svg>

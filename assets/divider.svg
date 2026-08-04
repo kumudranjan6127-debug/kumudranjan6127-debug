@@ -1,30 +1,35 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 28" width="1000" height="28" role="presentation" aria-hidden="true">
   <defs>
     <linearGradient id="dline" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%"   stop-color="#C9A24B" stop-opacity="0"/>
-      <stop offset="50%"  stop-color="#C9A24B" stop-opacity=".55"/>
-      <stop offset="100%" stop-color="#C9A24B" stop-opacity="0"/>
+      <stop offset="0%"   stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset="50%"  stop-color="#22D3EE" stop-opacity=".6"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
     </linearGradient>
     <radialGradient id="pulse" cx="50%" cy="50%" r="50%">
-      <stop offset="0%"   stop-color="#FFF6DC" stop-opacity="1"/>
-      <stop offset="40%"  stop-color="#E8C874" stop-opacity=".7"/>
-      <stop offset="100%" stop-color="#C9A24B" stop-opacity="0"/>
+      <stop offset="0%"   stop-color="#E8FCFF" stop-opacity="1"/>
+      <stop offset="35%"  stop-color="#67E8F9" stop-opacity=".8"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
     </radialGradient>
   </defs>
 
   <style>
-    .run  { animation: run 5.5s cubic-bezier(.45,0,.55,1) infinite; }
-    @keyframes run { 0%{transform:translateX(60px);opacity:0} 12%{opacity:1} 88%{opacity:1} 100%{transform:translateX(940px);opacity:0} }
-    .tick { animation: tick 5.5s ease-in-out infinite; }
-    @keyframes tick { 0%,100%{opacity:.25} 50%{opacity:.7} }
-    @media (prefers-reduced-motion: reduce) { .run,.tick { animation: none; } }
+    .run { animation: run 5s cubic-bezier(.45,0,.55,1) infinite; }
+    @keyframes run { 0%{transform:translateX(50px);opacity:0} 12%{opacity:1} 88%{opacity:1} 100%{transform:translateX(950px);opacity:0} }
+    .spin { transform-origin: 500px 14px; animation: spin 8s linear infinite; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .tick { animation: tick 5s ease-in-out infinite; }
+    @keyframes tick { 0%,100%{opacity:.22} 50%{opacity:.75} }
+    @media (prefers-reduced-motion: reduce) { .run,.spin,.tick { animation:none } }
   </style>
 
   <rect x="0" y="13.4" width="1000" height="1.2" fill="url(#dline)"/>
-  <g class="tick" fill="#C9A24B">
-    <rect x="418" y="10" width="1" height="8"/><rect x="458" y="11" width="1" height="6"/>
-    <rect x="541" y="11" width="1" height="6"/><rect x="581" y="10" width="1" height="8"/>
+  <g class="tick" fill="#22D3EE">
+    <rect x="410" y="10" width="1" height="8"/><rect x="450" y="11" width="1" height="6"/>
+    <rect x="549" y="11" width="1" height="6"/><rect x="589" y="10" width="1" height="8"/>
   </g>
-  <path d="M492 14l8-5 8 5-8 5z" fill="#C9A24B" opacity=".8"/>
-  <g class="run"><ellipse cx="0" cy="14" rx="46" ry="7" fill="url(#pulse)"/></g>
+  <g class="spin">
+    <rect x="493" y="7" width="14" height="14" rx="2" fill="none" stroke="#67E8F9" stroke-opacity=".85" stroke-width="1.3"/>
+  </g>
+  <circle cx="500" cy="14" r="2.2" fill="#E8FCFF"/>
+  <g class="run"><ellipse cx="0" cy="14" rx="52" ry="7" fill="url(#pulse)"/></g>
 </svg>

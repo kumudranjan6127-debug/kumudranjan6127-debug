@@ -1,160 +1,214 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="1000" height="300" role="img" aria-label="Kumud Ranjan — Full-Stack Engineer, AI Systems, Automation">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320" width="1000" height="320" role="img" aria-label="Kumud Ranjan — Full-Stack Engineer · AI Systems · Automation">
   <title>Kumud Ranjan — Full-Stack Engineer · AI Systems · Automation</title>
 
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%"   stop-color="#090806"/>
-      <stop offset="50%"  stop-color="#14100A"/>
-      <stop offset="100%" stop-color="#090806"/>
+      <stop offset="0%"   stop-color="#070D18"/>
+      <stop offset="50%"  stop-color="#0E2438"/>
+      <stop offset="100%" stop-color="#070D18"/>
     </linearGradient>
 
-    <radialGradient id="glow" cx="50%" cy="55%" r="55%">
-      <stop offset="0%"   stop-color="#C9A24B" stop-opacity=".30"/>
-      <stop offset="60%"  stop-color="#C9A24B" stop-opacity=".06"/>
-      <stop offset="100%" stop-color="#C9A24B" stop-opacity="0"/>
+    <radialGradient id="core" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#E0FBFF" stop-opacity="1"/>
+      <stop offset="35%"  stop-color="#67E8F9" stop-opacity=".85"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
     </radialGradient>
 
-    <!-- Sweeping gold: the highlight stop travels across the fill forever -->
-    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%"   stop-color="#7A5E1E"/>
-      <stop offset="40%"  stop-color="#C9A24B"/>
-      <stop offset="50%"  stop-color="#FFF6DC"/>
-      <stop offset="60%"  stop-color="#C9A24B"/>
-      <stop offset="100%" stop-color="#7A5E1E"/>
+    <radialGradient id="glow" cx="50%" cy="55%" r="55%">
+      <stop offset="0%"   stop-color="#22D3EE" stop-opacity=".26"/>
+      <stop offset="60%"  stop-color="#0891B2" stop-opacity=".07"/>
+      <stop offset="100%" stop-color="#0891B2" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Energy sweeping through the letterforms -->
+    <linearGradient id="ion" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#0891B2"/>
+      <stop offset="40%"  stop-color="#22D3EE"/>
+      <stop offset="50%"  stop-color="#E8FCFF"/>
+      <stop offset="60%"  stop-color="#22D3EE"/>
+      <stop offset="100%" stop-color="#0891B2"/>
       <animateTransform attributeName="gradientTransform" type="translate"
-                        values="-1 0; 1 0; -1 0" dur="7s" repeatCount="indefinite"/>
+                        values="-1 0; 1 0; -1 0" dur="6s" repeatCount="indefinite"/>
     </linearGradient>
 
     <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%"   stop-color="#C9A24B" stop-opacity="0"/>
-      <stop offset="50%"  stop-color="#E8C874" stop-opacity=".9"/>
-      <stop offset="100%" stop-color="#C9A24B" stop-opacity="0"/>
+      <stop offset="0%"   stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset="50%"  stop-color="#67E8F9" stop-opacity=".95"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
     </linearGradient>
 
     <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%"   stop-color="#fff" stop-opacity="0"/>
-      <stop offset="18%"  stop-color="#fff" stop-opacity="1"/>
-      <stop offset="82%"  stop-color="#fff" stop-opacity="1"/>
+      <stop offset="16%"  stop-color="#fff" stop-opacity="1"/>
+      <stop offset="84%"  stop-color="#fff" stop-opacity="1"/>
       <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
     </linearGradient>
-    <mask id="edgeFade"><rect width="1000" height="300" fill="url(#fade)"/></mask>
+    <mask id="edgeFade"><rect width="1000" height="320" fill="url(#fade)"/></mask>
 
-    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="7"/>
+    <filter id="bloom" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="2.2"/>
     </filter>
   </defs>
 
   <style>
-    .mono { font-family: "JetBrains Mono", "SF Mono", "Fira Code", ui-monospace, Consolas, monospace; }
+    .mono { font-family: "JetBrains Mono","SF Mono","Fira Code",ui-monospace,Consolas,monospace; }
 
-    /* Name strokes draw themselves on, then the gold fill rises underneath */
-    .draw  { fill: none; stroke: #E8C874; stroke-width: 1.1; stroke-linejoin: round;
-             stroke-dasharray: 2400; stroke-dashoffset: 2400;
-             animation: draw 2.6s cubic-bezier(.6,.05,.2,1) .25s forwards; }
-    .fill  { fill: url(#gold); opacity: 0; animation: rise 1.5s ease 1.9s forwards; }
-    .halo  { fill: #C9A24B; opacity: 0; filter: url(#soft);
-             animation: halo 4.5s ease-in-out 2.4s infinite; }
+    /* ── Name: traced, then energised ── */
+    .draw { fill:none; stroke:#67E8F9; stroke-width:1.1; stroke-linejoin:round;
+            stroke-dasharray:2400; stroke-dashoffset:2400;
+            animation: draw 2.4s cubic-bezier(.6,.05,.2,1) .3s forwards; }
+    .fill { fill:url(#ion); opacity:0; animation: rise 1.4s ease 1.9s forwards; }
+    .halo { fill:#22D3EE; opacity:0; filter:url(#bloom);
+            animation: halo 4s ease-in-out 2.3s infinite; }
+    @keyframes draw { to { stroke-dashoffset:0; } }
+    @keyframes rise { to { opacity:1; } }
+    @keyframes halo { 0%,100%{opacity:.12} 50%{opacity:.34} }
 
-    @keyframes draw { to { stroke-dashoffset: 0; } }
-    @keyframes rise { from { opacity: 0; } to { opacity: 1; } }
-    @keyframes halo { 0%,100% { opacity: .10; } 50% { opacity: .30; } }
+    /* ── Arc reactor rings ── */
+    .spinCW  { animation: spin 14s linear infinite; }
+    .spinCCW { animation: spin 20s linear infinite reverse; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .pulse { animation: pulse 2.6s ease-in-out infinite; }
+    @keyframes pulse { 0%,100%{ opacity:.55; transform:scale(.92);} 50%{ opacity:1; transform:scale(1.06);} }
 
-    /* Sub-line reveals like a wipe, not a fade */
-    .wipe  { animation: wipe 1.3s cubic-bezier(.6,.05,.2,1) 2.5s forwards; }
-    @keyframes wipe { to { width: 1000px; } }
+    /* ── Live voice waveform ── */
+    .wave rect { fill:#22D3EE; transform-box: fill-box; transform-origin: center;
+                 animation: bar 1.15s ease-in-out infinite; }
+    .wave rect:nth-child(8n+1){ animation-duration:1.30s; animation-delay:-.05s; fill:#67E8F9 }
+    .wave rect:nth-child(8n+2){ animation-duration: .95s; animation-delay:-.45s }
+    .wave rect:nth-child(8n+3){ animation-duration:1.55s; animation-delay:-.80s; fill:#0EA5E9 }
+    .wave rect:nth-child(8n+4){ animation-duration:1.05s; animation-delay:-.25s }
+    .wave rect:nth-child(8n+5){ animation-duration:1.40s; animation-delay:-.65s; fill:#67E8F9 }
+    .wave rect:nth-child(8n+6){ animation-duration: .88s; animation-delay:-.15s }
+    .wave rect:nth-child(8n+7){ animation-duration:1.22s; animation-delay:-.95s; fill:#0891B2 }
+    .wave rect:nth-child(8n+8){ animation-duration:1.68s; animation-delay:-.35s }
+    @keyframes bar { 0%,100%{ transform:scaleY(.12);} 50%{ transform:scaleY(1);} }
 
-    .ruleIn { transform-origin: 500px 196px; transform: scaleX(0);
-              animation: ruleIn 1.4s cubic-bezier(.6,.05,.2,1) 2.1s forwards; }
-    @keyframes ruleIn { to { transform: scaleX(1); } }
-
-    /* Corner brackets snap in last */
-    .brk { stroke: #C9A24B; stroke-width: 1.4; fill: none; opacity: 0;
-           stroke-dasharray: 90; stroke-dashoffset: 90;
-           animation: brk 1s ease 3.1s forwards; }
-    @keyframes brk { to { opacity: .75; stroke-dashoffset: 0; } }
-
-    /* Drifting motes */
-    .mote { fill: #E8C874; animation: drift linear infinite; }
-    @keyframes drift {
-      0%   { opacity: 0;   transform: translateY(14px); }
-      15%  { opacity: .55; }
-      85%  { opacity: .35; }
-      100% { opacity: 0;   transform: translateY(-46px); }
-    }
-
-    .scan { animation: scan 9s linear infinite; }
-    @keyframes scan { from { transform: translateX(-260px);} to { transform: translateX(1260px);} }
-
-    .grid { animation: gridslide 22s linear infinite; }
-    @keyframes gridslide { from { transform: translateX(0);} to { transform: translateX(60px);} }
+    /* ── HUD chrome ── */
+    .wipe { animation: wipe 1.2s cubic-bezier(.6,.05,.2,1) 2.4s forwards; }
+    @keyframes wipe { to { width:1000px; } }
+    .ruleIn { transform-origin:500px 208px; transform:scaleX(0);
+              animation: ruleIn 1.3s cubic-bezier(.6,.05,.2,1) 2.0s forwards; }
+    @keyframes ruleIn { to { transform:scaleX(1); } }
+    .brk { stroke:#22D3EE; stroke-width:1.4; fill:none; opacity:0;
+           stroke-dasharray:90; stroke-dashoffset:90;
+           animation: brk .9s ease 3s forwards; }
+    @keyframes brk { to { opacity:.8; stroke-dashoffset:0; } }
+    .sweep { animation: sweep 7s linear infinite; }
+    @keyframes sweep { from{ transform:translateX(-300px);} to{ transform:translateX(1300px);} }
+    .grid { animation: gridslide 26s linear infinite; }
+    @keyframes gridslide { from{ transform:translateX(0);} to{ transform:translateX(60px);} }
+    .blink { animation: blink 1.8s steps(1) infinite; }
+    @keyframes blink { 0%,60%{opacity:1} 61%,100%{opacity:.15} }
 
     @media (prefers-reduced-motion: reduce) {
-      .draw { stroke-dashoffset: 0; animation: none; }
-      .fill { opacity: 1; animation: none; }
-      .wipe { width: 1000px; animation: none; }
-      .ruleIn { transform: scaleX(1); animation: none; }
-      .brk  { opacity: .75; stroke-dashoffset: 0; animation: none; }
-      .halo, .mote, .scan, .grid { animation: none; }
+      .draw{ stroke-dashoffset:0; animation:none } .fill{ opacity:1; animation:none }
+      .wipe{ width:1000px; animation:none } .ruleIn{ transform:scaleX(1); animation:none }
+      .brk{ opacity:.8; stroke-dashoffset:0; animation:none }
+      .halo,.spinCW,.spinCCW,.pulse,.sweep,.grid,.blink{ animation:none }
+      .wave rect{ animation:none; transform:scaleY(.55) }
     }
   </style>
 
-  <rect width="1000" height="300" fill="url(#bg)"/>
+  <rect width="1000" height="320" fill="url(#bg)"/>
 
-  <!-- Perspective grid, slowly sliding -->
-  <g mask="url(#edgeFade)" opacity=".16">
-    <g class="grid">
-      <g stroke="#C9A24B" stroke-width=".5">
-        <path d="M-60 0V300M0 0V300M60 0V300M120 0V300M180 0V300M240 0V300M300 0V300M360 0V300M420 0V300M480 0V300M540 0V300M600 0V300M660 0V300M720 0V300M780 0V300M840 0V300M900 0V300M960 0V300M1020 0V300"/>
-      </g>
-    </g>
-    <g stroke="#C9A24B" stroke-width=".5">
-      <path d="M0 60H1000M0 120H1000M0 180H1000M0 240H1000"/>
+  <!-- Grid -->
+  <g mask="url(#edgeFade)" opacity=".18">
+    <g class="grid"><g stroke="#22D3EE" stroke-width=".5">
+      <path d="M-60 0V320M0 0V320M60 0V320M120 0V320M180 0V320M240 0V320M300 0V320M360 0V320M420 0V320M480 0V320M540 0V320M600 0V320M660 0V320M720 0V320M780 0V320M840 0V320M900 0V320M960 0V320M1020 0V320"/>
+    </g></g>
+    <g stroke="#22D3EE" stroke-width=".5">
+      <path d="M0 64H1000M0 128H1000M0 192H1000M0 256H1000"/>
     </g>
   </g>
 
-  <ellipse cx="500" cy="150" rx="430" ry="130" fill="url(#glow)"/>
+  <ellipse cx="500" cy="150" rx="440" ry="140" fill="url(#glow)"/>
 
-  <!-- Drifting motes -->
-  <g mask="url(#edgeFade)">
-    <circle class="mote" cx="120" cy="250" r="1.6" style="animation-duration:7s;  animation-delay:0s"/>
-    <circle class="mote" cx="255" cy="270" r="1.2" style="animation-duration:9s;  animation-delay:1.4s"/>
-    <circle class="mote" cx="390" cy="255" r="1.8" style="animation-duration:8s;  animation-delay:2.6s"/>
-    <circle class="mote" cx="610" cy="268" r="1.3" style="animation-duration:10s; animation-delay:.8s"/>
-    <circle class="mote" cx="745" cy="252" r="1.7" style="animation-duration:7.5s;animation-delay:3.2s"/>
-    <circle class="mote" cx="880" cy="272" r="1.2" style="animation-duration:9.5s;animation-delay:2s"/>
-    <circle class="mote" cx="185" cy="262" r="1.1" style="animation-duration:11s; animation-delay:4.1s"/>
-    <circle class="mote" cx="820" cy="258" r="1.4" style="animation-duration:8.5s;animation-delay:5.3s"/>
+  <!-- ══ Arc reactors ══ -->
+  <g transform="translate(96,150)">
+    <g class="spinCW">
+      <circle r="46" fill="none" stroke="#22D3EE" stroke-opacity=".55" stroke-width="1.4" stroke-dasharray="16 9"/>
+    </g>
+    <g class="spinCCW">
+      <circle r="34" fill="none" stroke="#0EA5E9" stroke-opacity=".7" stroke-width="1" stroke-dasharray="4 7"/>
+    </g>
+    <circle r="24" fill="none" stroke="#67E8F9" stroke-opacity=".45" stroke-width="1"/>
+    <g class="spinCW" style="animation-duration:9s">
+      <path d="M0-24 4-14h-8zM0 24 4 14h-8zM-24 0-14 4v-8zM24 0 14 4v-8z" fill="#67E8F9" opacity=".8"/>
+    </g>
+    <circle class="pulse" r="15" fill="url(#core)"/>
   </g>
 
-  <!-- Name: drawn, then filled, with a breathing halo behind -->
+  <g transform="translate(904,150)">
+    <g class="spinCCW">
+      <circle r="46" fill="none" stroke="#22D3EE" stroke-opacity=".55" stroke-width="1.4" stroke-dasharray="16 9"/>
+    </g>
+    <g class="spinCW">
+      <circle r="34" fill="none" stroke="#0EA5E9" stroke-opacity=".7" stroke-width="1" stroke-dasharray="4 7"/>
+    </g>
+    <circle r="24" fill="none" stroke="#67E8F9" stroke-opacity=".45" stroke-width="1"/>
+    <g class="spinCCW" style="animation-duration:9s">
+      <path d="M0-24 4-14h-8zM0 24 4 14h-8zM-24 0-14 4v-8zM24 0 14 4v-8z" fill="#67E8F9" opacity=".8"/>
+    </g>
+    <circle class="pulse" r="15" fill="url(#core)" style="animation-delay:-1.3s"/>
+  </g>
+
+  <!-- ══ Name ══ -->
   <g text-anchor="middle">
-    <text class="mono halo" x="500" y="150" font-size="70" font-weight="700" letter-spacing="9">KUMUD RANJAN</text>
-    <text class="mono fill" x="500" y="150" font-size="70" font-weight="700" letter-spacing="9">KUMUD RANJAN</text>
-    <text class="mono draw" x="500" y="150" font-size="70" font-weight="700" letter-spacing="9">KUMUD RANJAN</text>
+    <text class="mono halo" x="500" y="152" font-size="66" font-weight="700" letter-spacing="8">KUMUD RANJAN</text>
+    <text class="mono fill" x="500" y="152" font-size="66" font-weight="700" letter-spacing="8">KUMUD RANJAN</text>
+    <text class="mono draw" x="500" y="152" font-size="66" font-weight="700" letter-spacing="8">KUMUD RANJAN</text>
   </g>
 
-  <!-- Expanding hairline -->
-  <rect class="ruleIn" x="230" y="195" width="540" height="1.5" fill="url(#rule)"/>
+  <rect class="ruleIn" x="230" y="207" width="540" height="1.5" fill="url(#rule)"/>
 
-  <!-- Role line, revealed by a wipe -->
-  <g>
-    <clipPath id="clipRole"><rect class="wipe" x="0" y="205" width="0" height="60"/></clipPath>
-    <g clip-path="url(#clipRole)">
-      <text class="mono" x="500" y="232" text-anchor="middle" font-size="16.5" letter-spacing="5.5" fill="#D6C9A8">
-        FULL-STACK ENGINEER
-        <tspan fill="#8A7A5C"> · </tspan>AI SYSTEMS<tspan fill="#8A7A5C"> · </tspan>AUTOMATION
-      </text>
-    </g>
+  <!-- ══ Role line ══ -->
+  <clipPath id="clipRole"><rect class="wipe" x="0" y="216" width="0" height="40"/></clipPath>
+  <g clip-path="url(#clipRole)">
+    <text class="mono" x="500" y="242" text-anchor="middle" font-size="15.5" letter-spacing="5" fill="#A8D8E8">
+      FULL-STACK ENGINEER<tspan fill="#3E6E85"> · </tspan>AI SYSTEMS<tspan fill="#3E6E85"> · </tspan>AUTOMATION
+    </text>
   </g>
 
-  <!-- Light sweep across the whole plate -->
-  <g mask="url(#edgeFade)" opacity=".16">
-    <rect class="scan" x="0" y="0" width="120" height="300" fill="url(#rule)" transform="skewX(-14)"/>
+  <!-- ══ Voice waveform ══ -->
+  <g class="wave" filter="url(#soft)" opacity=".95" mask="url(#edgeFade)">
+    <rect x="202" y="268" width="5" height="34" rx="2.5"/><rect x="219" y="268" width="5" height="34" rx="2.5"/>
+    <rect x="236" y="268" width="5" height="34" rx="2.5"/><rect x="253" y="268" width="5" height="34" rx="2.5"/>
+    <rect x="270" y="268" width="5" height="34" rx="2.5"/><rect x="287" y="268" width="5" height="34" rx="2.5"/>
+    <rect x="304" y="268" width="5" height="34" rx="2.5"/><rect x="321" y="268" width="5" height="34" rx="2.5"/>
+    <rect x="338" y="268" width="5" height="34" rx="2.5"/><rect x="355" y="268" width="5" height="34" rx="2.5"/>
+    <rect x="372" y="268" width="5" height="34" rx="2.5"/><rect x="389" y="268" width="5" height="34" rx="2.5"/>
+    <rect x="406" y="268" width="5" height="34" rx="2.5"/><rect x="423" y="268" width="5" height="34" rx="2.5"/>
+    <rect x="440" y="268" width="5" height="34" rx="2.5"/><rect x="457" y="268" width="5" height="34" rx="2.5"/>
+    <rect x="474" y="268" width="5" height="34" rx="2.5"/><rect x="491" y="268" width="5" height="34" rx="2.5"/>
+    <rect x="508" y="268" width="5" height="34" rx="2.5"/><rect x="525" y="268" width="5" height="34" rx="2.5"/>
+    <rect x="542" y="268" width="5" height="34" rx="2.5"/><rect x="559" y="268" width="5" height="34" rx="2.5"/>
+    <rect x="576" y="268" width="5" height="34" rx="2.5"/><rect x="593" y="268" width="5" height="34" rx="2.5"/>
+    <rect x="610" y="268" width="5" height="34" rx="2.5"/><rect x="627" y="268" width="5" height="34" rx="2.5"/>
+    <rect x="644" y="268" width="5" height="34" rx="2.5"/><rect x="661" y="268" width="5" height="34" rx="2.5"/>
+    <rect x="678" y="268" width="5" height="34" rx="2.5"/><rect x="695" y="268" width="5" height="34" rx="2.5"/>
+    <rect x="712" y="268" width="5" height="34" rx="2.5"/><rect x="729" y="268" width="5" height="34" rx="2.5"/>
+    <rect x="746" y="268" width="5" height="34" rx="2.5"/><rect x="763" y="268" width="5" height="34" rx="2.5"/>
+    <rect x="780" y="268" width="5" height="34" rx="2.5"/><rect x="797" y="268" width="5" height="34" rx="2.5"/>
   </g>
 
-  <!-- Corner brackets -->
-  <g class="brk"><path d="M28 40V22h26"/></g>
-  <g class="brk" style="animation-delay:3.25s"><path d="M972 40V22h-26"/></g>
-  <g class="brk" style="animation-delay:3.4s"><path d="M28 260v18h26"/></g>
-  <g class="brk" style="animation-delay:3.55s"><path d="M972 260v18h-26"/></g>
+  <!-- Listening indicator -->
+  <g class="blink">
+    <circle cx="176" cy="285" r="3.4" fill="#22D3EE"/>
+  </g>
+  <text class="mono" x="812" y="289" font-size="9.5" letter-spacing="2.4" fill="#3E6E85">LISTENING</text>
+
+  <!-- Radar sweep -->
+  <g mask="url(#edgeFade)" opacity=".14">
+    <rect class="sweep" x="0" y="0" width="130" height="320" fill="url(#rule)" transform="skewX(-14)"/>
+  </g>
+
+  <!-- HUD brackets -->
+  <g class="brk"><path d="M26 44V24h28"/></g>
+  <g class="brk" style="animation-delay:3.15s"><path d="M974 44V24h-28"/></g>
+  <g class="brk" style="animation-delay:3.3s"><path d="M26 276v20h28"/></g>
+  <g class="brk" style="animation-delay:3.45s"><path d="M974 276v20h-28"/></g>
 </svg>

@@ -50,7 +50,7 @@ const stats = {
 const bytes = new Map();
 for (const r of repos) {
   for (const { size, node } of r.languages.edges) {
-    const prev = bytes.get(node.name) || { size: 0, color: node.color || "#8A7A5C" };
+    const prev = bytes.get(node.name) || { size: 0, color: node.color || "#3E6E85" };
     prev.size += size;
     bytes.set(node.name, prev);
   }
@@ -68,27 +68,33 @@ const CARD = (title, body, label) => `<svg xmlns="http://www.w3.org/2000/svg" vi
   <title>${esc(label)}</title>
   <defs>
     <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0F0C08"/><stop offset="100%" stop-color="#15110B"/>
+      <stop offset="0%" stop-color="#0A1420"/><stop offset="100%" stop-color="#0E2438"/>
     </linearGradient>
     <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#C9A24B" stop-opacity=".45"/>
-      <stop offset="50%" stop-color="#C9A24B" stop-opacity=".14"/>
-      <stop offset="100%" stop-color="#C9A24B" stop-opacity=".45"/>
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity=".5"/>
+      <stop offset="50%" stop-color="#22D3EE" stop-opacity=".16"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity=".5"/>
     </linearGradient>
     <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#C9A24B" stop-opacity=".8"/>
-      <stop offset="100%" stop-color="#C9A24B" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#67E8F9" stop-opacity=".9"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
     </linearGradient>
+    <linearGradient id="scanline" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#67E8F9" stop-opacity=".55"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="cardclip"><rect x=".8" y=".8" width="478.4" height="218.4" rx="11"/></clipPath>
     <clipPath id="barclip"><rect x="28" y="66" width="424" height="16" rx="8"/></clipPath>
     <clipPath id="wipeclip"><rect class="wipe" x="28" y="60" width="0" height="30"/></clipPath>
   </defs>
   <style>
     .mono { font-family: "JetBrains Mono","SF Mono","Fira Code",ui-monospace,Consolas,monospace; }
-    .lbl { font-size: 10.5px; letter-spacing: 1.4px; fill: #8A7A5C; }
-    .val { font-size: 24px; font-weight: 700; fill: #E8C874; }
-    .hdr { font-size: 12px; letter-spacing: 2.6px; fill: #C9A24B; }
-    .nm  { font-size: 11.5px; fill: #D6C9A8; }
-    .pc  { font-size: 11.5px; fill: #8A7A5C; }
+    .lbl { font-size: 10.5px; letter-spacing: 1.4px; fill: #3E6E85; }
+    .val { font-size: 24px; font-weight: 700; fill: #67E8F9; }
+    .hdr { font-size: 12px; letter-spacing: 2.6px; fill: #22D3EE; }
+    .nm  { font-size: 11.5px; fill: #A8D8E8; }
+    .pc  { font-size: 11.5px; fill: #3E6E85; }
     .item, .leg { opacity: 0; animation: pop .7s cubic-bezier(.2,.7,.3,1) forwards; }
     @keyframes pop { from { opacity:0; transform: translateY(8px);} to { opacity:1; transform: translateY(0);} }
     .ruleIn { transform-origin: 0 0; transform: scaleX(0); animation: rin 1s ease .1s forwards; }
@@ -97,16 +103,24 @@ const CARD = (title, body, label) => `<svg xmlns="http://www.w3.org/2000/svg" vi
     @keyframes fill { to { width: 424px; } }
     .spark, .dot { animation: glow 3.8s ease-in-out infinite; }
     @keyframes glow { 0%,100%{opacity:.4} 50%{opacity:1} }
+    .scan { animation: scan 6s ease-in-out infinite; }
+    @keyframes scan { 0%{transform:translateY(-10px);opacity:0} 10%{opacity:1} 90%{opacity:1} 100%{transform:translateY(226px);opacity:0} }
+    .ring { transform-origin: 440px 32px; animation: ringspin 12s linear infinite; }
+    @keyframes ringspin { to { transform: rotate(360deg); } }
     @media (prefers-reduced-motion: reduce) {
       .item,.leg { opacity:1; animation:none; }
       .ruleIn { transform: scaleX(1); animation:none; }
       .wipe { width: 424px; animation:none; }
-      .spark,.dot { animation:none; }
+      .spark,.dot,.scan,.ring { animation:none; }
     }
   </style>
   <rect x=".8" y=".8" width="478.4" height="218.4" rx="11" fill="url(#card)" stroke="url(#edge)" stroke-width="1.2"/>
+  <g clip-path="url(#cardclip)">
+    <rect class="scan" x="0" y="0" width="480" height="2" fill="url(#scanline)"/>
+  </g>
   <text class="mono hdr" x="28" y="36">${title}</text>
   <rect class="ruleIn" x="28" y="46" width="424" height="1.2" fill="url(#rule)"/>
+  <g class="ring"><rect x="434" y="26" width="12" height="12" rx="2" fill="none" stroke="#22D3EE" stroke-opacity=".7" stroke-width="1.1"/></g>
 ${body}
 </svg>
 `;
@@ -117,7 +131,7 @@ const tile = (x, y, label, value, delay, small) => `  <g class="item" style="ani
   </g>`;
 
 const statsBody = [
-  `  <circle class="spark" cx="440" cy="32" r="3" fill="#E8C874"/>`,
+  `  <circle class="spark" cx="440" cy="32" r="2.6" fill="#67E8F9"/>`,
   tile(28, 82, "TOTAL STARS", stats.stars, 0.10),
   tile(262, 82, "REPOSITORIES", stats.repos, 0.18),
   tile(28, 140, `COMMITS (${YEAR})`, stats.commits, 0.26),
@@ -148,7 +162,7 @@ const legend = langs.map((l, i) => {
   </g>`;
 }).join("\n");
 
-const langsBody = `  <rect x="28" y="66" width="424" height="16" rx="8" fill="#241D12"/>
+const langsBody = `  <rect x="28" y="66" width="424" height="16" rx="8" fill="#14283C"/>
   <g clip-path="url(#wipeclip)"><g clip-path="url(#barclip)">
 ${segs.join("\n")}
   </g></g>

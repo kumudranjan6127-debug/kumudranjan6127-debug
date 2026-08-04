@@ -6,10 +6,10 @@
 
 <br/>
 
-<a href="https://www.linkedin.com/in/kumud-ranjan-490258399/"><img src="https://img.shields.io/badge/LinkedIn-Connect-C9A24B?style=for-the-badge&labelColor=14100A&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI0U4Qzg3NCI%2BPHBhdGggZD0iTTIwLjQ0NyAyMC40NTJoLTMuNTU0di01LjU2OWMwLTEuMzI4LS4wMjctMy4wMzctMS44NTItMy4wMzctMS44NTMgMC0yLjEzNiAxLjQ0NS0yLjEzNiAyLjkzOXY1LjY2N0g5LjM1MVY5aDMuNDE0djEuNTYxaC4wNDZjLjQ3Ny0uOSAxLjYzNy0xLjg1IDMuMzctMS44NSAzLjYwMSAwIDQuMjY3IDIuMzcgNC4yNjcgNS40NTV2Ni4yODZ6TTUuMzM3IDcuNDMzYy0xLjE0NCAwLTIuMDYzLS45MjYtMi4wNjMtMi4wNjUgMC0xLjEzOC45Mi0yLjA2MyAyLjA2My0yLjA2MyAxLjE0IDAgMi4wNjQuOTI1IDIuMDY0IDIuMDYzIDAgMS4xMzktLjkyNSAyLjA2NS0yLjA2NCAyLjA2NXptMS43ODIgMTMuMDE5SDMuNTU1VjloMy41NjR2MTEuNDUyek0yMi4yMjUgMEgxLjc3MUMuNzkyIDAgMCAuNzc0IDAgMS43Mjl2MjAuNTQyQzAgMjMuMjI3Ljc5MiAyNCAxLjc3MSAyNGgyMC40NTFDMjMuMiAyNCAyNCAyMy4yMjcgMjQgMjIuMjcxVjEuNzI5QzI0IC43NzQgMjMuMiAwIDIyLjIyMiAwaC4wMDN6Ii8%2BPC9zdmc%2BCg%3D%3D" alt="LinkedIn"></a>
-<a href="https://x.com/STARSAVER6127"><img src="https://img.shields.io/badge/X-@STARSAVER6127-C9A24B?style=for-the-badge&labelColor=14100A&logo=x&logoColor=E8C874" alt="X"></a>
-<a href="https://www.instagram.com/starsaver6127/"><img src="https://img.shields.io/badge/Instagram-@starsaver6127-C9A24B?style=for-the-badge&labelColor=14100A&logo=instagram&logoColor=E8C874" alt="Instagram"></a>
-<a href="https://mail.google.com/mail/?view=cm&fs=1&to=kumudranjan6127@gmail.com&su=Hello%20Kumud"><img src="https://img.shields.io/badge/Email-Reach%20out-C9A24B?style=for-the-badge&labelColor=14100A&logo=gmail&logoColor=E8C874" alt="Email"></a>
+<a href="https://www.linkedin.com/in/kumud-ranjan-490258399/"><img src="https://img.shields.io/badge/LinkedIn-Connect-22D3EE?style=for-the-badge&labelColor=0A1420&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzY3RThGOSI%2BPHBhdGggZD0iTTIwLjQ0NyAyMC40NTJoLTMuNTU0di01LjU2OWMwLTEuMzI4LS4wMjctMy4wMzctMS44NTItMy4wMzctMS44NTMgMC0yLjEzNiAxLjQ0NS0yLjEzNiAyLjkzOXY1LjY2N0g5LjM1MVY5aDMuNDE0djEuNTYxaC4wNDZjLjQ3Ny0uOSAxLjYzNy0xLjg1IDMuMzctMS44NSAzLjYwMSAwIDQuMjY3IDIuMzcgNC4yNjcgNS40NTV2Ni4yODZ6TTUuMzM3IDcuNDMzYy0xLjE0NCAwLTIuMDYzLS45MjYtMi4wNjMtMi4wNjUgMC0xLjEzOC45Mi0yLjA2MyAyLjA2My0yLjA2MyAxLjE0IDAgMi4wNjQuOTI1IDIuMDY0IDIuMDYzIDAgMS4xMzktLjkyNSAyLjA2NS0yLjA2NCAyLjA2NXptMS43ODIgMTMuMDE5SDMuNTU1VjloMy41NjR2MTEuNDUyek0yMi4yMjUgMEgxLjc3MUMuNzkyIDAgMCAuNzc0IDAgMS43Mjl2MjAuNTQyQzAgMjMuMjI3Ljc5MiAyNCAxLjc3MSAyNGgyMC40NTFDMjMuMiAyNCAyNCAyMy4yMjcgMjQgMjIuMjcxVjEuNzI5QzI0IC43NzQgMjMuMiAwIDIyLjIyMiAwaC4wMDN6Ii8%2BPC9zdmc%2BCg%3D%3D" alt="LinkedIn"></a>
+<a href="https://x.com/STARSAVER6127"><img src="https://img.shields.io/badge/X-@STARSAVER6127-22D3EE?style=for-the-badge&labelColor=0A1420&logo=x&logoColor=67E8F9" alt="X"></a>
+<a href="https://www.instagram.com/starsaver6127/"><img src="https://img.shields.io/badge/Instagram-@starsaver6127-22D3EE?style=for-the-badge&labelColor=0A1420&logo=instagram&logoColor=67E8F9" alt="Instagram"></a>
+<a href="https://mail.google.com/mail/?view=cm&fs=1&to=kumudranjan6127@gmail.com&su=Hello%20Kumud"><img src="https://img.shields.io/badge/Email-Reach%20out-22D3EE?style=for-the-badge&labelColor=0A1420&logo=gmail&logoColor=67E8F9" alt="Email"></a>
 
 </div>
 
@@ -147,12 +147,12 @@ A personal AI assistant for Windows that listens, answers aloud, and safely cont
 
 <div align="center">
 
-<img src="assets/stats.svg" alt="GitHub Stats — 6 stars, 151 commits, 52 pull requests" width="48%" />
-<img src="assets/langs.svg" alt="Top Languages — TypeScript 79%, Python 15%, JavaScript 4%" width="48%" />
+<img src="assets/stats.svg" alt="GitHub Stats" width="48%" />
+<img src="assets/langs.svg" alt="Top Languages" width="48%" />
 
 <br/><br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=kumudranjan6127-debug&bg_color=0D0B07&color=E8C874&line=C9A24B&point=E8C874&area=true&hide_border=true" alt="Contribution Graph" width="98%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=kumudranjan6127-debug&bg_color=0D0B07&color=67E8F9&line=22D3EE&point=67E8F9&area=true&hide_border=true" alt="Contribution Graph" width="98%" />
 
 </div>
 
@@ -162,10 +162,10 @@ A personal AI assistant for Windows that listens, answers aloud, and safely cont
 
 ### ◢ Let's build something
 
-<a href="https://www.linkedin.com/in/kumud-ranjan-490258399/"><img src="https://img.shields.io/badge/LinkedIn-C9A24B?style=for-the-badge&labelColor=14100A&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI0U4Qzg3NCI%2BPHBhdGggZD0iTTIwLjQ0NyAyMC40NTJoLTMuNTU0di01LjU2OWMwLTEuMzI4LS4wMjctMy4wMzctMS44NTItMy4wMzctMS44NTMgMC0yLjEzNiAxLjQ0NS0yLjEzNiAyLjkzOXY1LjY2N0g5LjM1MVY5aDMuNDE0djEuNTYxaC4wNDZjLjQ3Ny0uOSAxLjYzNy0xLjg1IDMuMzctMS44NSAzLjYwMSAwIDQuMjY3IDIuMzcgNC4yNjcgNS40NTV2Ni4yODZ6TTUuMzM3IDcuNDMzYy0xLjE0NCAwLTIuMDYzLS45MjYtMi4wNjMtMi4wNjUgMC0xLjEzOC45Mi0yLjA2MyAyLjA2My0yLjA2MyAxLjE0IDAgMi4wNjQuOTI1IDIuMDY0IDIuMDYzIDAgMS4xMzktLjkyNSAyLjA2NS0yLjA2NCAyLjA2NXptMS43ODIgMTMuMDE5SDMuNTU1VjloMy41NjR2MTEuNDUyek0yMi4yMjUgMEgxLjc3MUMuNzkyIDAgMCAuNzc0IDAgMS43Mjl2MjAuNTQyQzAgMjMuMjI3Ljc5MiAyNCAxLjc3MSAyNGgyMC40NTFDMjMuMiAyNCAyNCAyMy4yMjcgMjQgMjIuMjcxVjEuNzI5QzI0IC43NzQgMjMuMiAwIDIyLjIyMiAwaC4wMDN6Ii8%2BPC9zdmc%2BCg%3D%3D" alt="LinkedIn"></a>
-<a href="https://x.com/STARSAVER6127"><img src="https://img.shields.io/badge/X-C9A24B?style=for-the-badge&labelColor=14100A&logo=x&logoColor=E8C874" alt="X"></a>
-<a href="https://www.instagram.com/starsaver6127/"><img src="https://img.shields.io/badge/Instagram-C9A24B?style=for-the-badge&labelColor=14100A&logo=instagram&logoColor=E8C874" alt="Instagram"></a>
-<a href="https://mail.google.com/mail/?view=cm&fs=1&to=kumudranjan6127@gmail.com&su=Hello%20Kumud"><img src="https://img.shields.io/badge/Gmail-C9A24B?style=for-the-badge&labelColor=14100A&logo=gmail&logoColor=E8C874" alt="Email"></a>
+<a href="https://www.linkedin.com/in/kumud-ranjan-490258399/"><img src="https://img.shields.io/badge/LinkedIn-22D3EE?style=for-the-badge&labelColor=0A1420&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzY3RThGOSI%2BPHBhdGggZD0iTTIwLjQ0NyAyMC40NTJoLTMuNTU0di01LjU2OWMwLTEuMzI4LS4wMjctMy4wMzctMS44NTItMy4wMzctMS44NTMgMC0yLjEzNiAxLjQ0NS0yLjEzNiAyLjkzOXY1LjY2N0g5LjM1MVY5aDMuNDE0djEuNTYxaC4wNDZjLjQ3Ny0uOSAxLjYzNy0xLjg1IDMuMzctMS44NSAzLjYwMSAwIDQuMjY3IDIuMzcgNC4yNjcgNS40NTV2Ni4yODZ6TTUuMzM3IDcuNDMzYy0xLjE0NCAwLTIuMDYzLS45MjYtMi4wNjMtMi4wNjUgMC0xLjEzOC45Mi0yLjA2MyAyLjA2My0yLjA2MyAxLjE0IDAgMi4wNjQuOTI1IDIuMDY0IDIuMDYzIDAgMS4xMzktLjkyNSAyLjA2NS0yLjA2NCAyLjA2NXptMS43ODIgMTMuMDE5SDMuNTU1VjloMy41NjR2MTEuNDUyek0yMi4yMjUgMEgxLjc3MUMuNzkyIDAgMCAuNzc0IDAgMS43Mjl2MjAuNTQyQzAgMjMuMjI3Ljc5MiAyNCAxLjc3MSAyNGgyMC40NTFDMjMuMiAyNCAyNCAyMy4yMjcgMjQgMjIuMjcxVjEuNzI5QzI0IC43NzQgMjMuMiAwIDIyLjIyMiAwaC4wMDN6Ii8%2BPC9zdmc%2BCg%3D%3D" alt="LinkedIn"></a>
+<a href="https://x.com/STARSAVER6127"><img src="https://img.shields.io/badge/X-22D3EE?style=for-the-badge&labelColor=0A1420&logo=x&logoColor=67E8F9" alt="X"></a>
+<a href="https://www.instagram.com/starsaver6127/"><img src="https://img.shields.io/badge/Instagram-22D3EE?style=for-the-badge&labelColor=0A1420&logo=instagram&logoColor=67E8F9" alt="Instagram"></a>
+<a href="https://mail.google.com/mail/?view=cm&fs=1&to=kumudranjan6127@gmail.com&su=Hello%20Kumud"><img src="https://img.shields.io/badge/Gmail-22D3EE?style=for-the-badge&labelColor=0A1420&logo=gmail&logoColor=67E8F9" alt="Email"></a>
 
 <br/>
 
