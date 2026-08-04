@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 220" width="480" height="220" role="img" aria-label="Top Languages — TypeScript 78.3%, Python 15.1%, JavaScript 5.1%, CSS 0.8%, HTML 0.6%, Shell 0.1%">
-  <title>Top Languages — TypeScript 78.3%, Python 15.1%, JavaScript 5.1%, CSS 0.8%, HTML 0.6%, Shell 0.1%</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 220" width="480" height="220" role="img" aria-label="Top Languages — TypeScript 53.7%, Python 38.6%, JavaScript 7.6%, Shell 0.2%">
+  <title>Top Languages — TypeScript 53.7%, Python 38.6%, JavaScript 7.6%, Shell 0.2%</title>
   <defs>
     <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#0A1420"/><stop offset="100%" stop-color="#0E2438"/>
@@ -57,41 +57,29 @@
   <g class="ring"><rect x="434" y="26" width="12" height="12" rx="2" fill="none" stroke="#22D3EE" stroke-opacity=".7" stroke-width="1.1"/></g>
   <rect x="28" y="66" width="424" height="16" rx="8" fill="#14283C"/>
   <g clip-path="url(#wipeclip)"><g clip-path="url(#barclip)">
-    <rect x="28.0" y="66" width="332.0" height="16" fill="#3178c6"/>
-    <rect x="360.0" y="66" width="64.0" height="16" fill="#3572A5"/>
-    <rect x="424.0" y="66" width="21.6" height="16" fill="#f1e05a"/>
-    <rect x="445.6" y="66" width="3.5" height="16" fill="#663399"/>
-    <rect x="449.1" y="66" width="2.7" height="16" fill="#e34c26"/>
-    <rect x="451.7" y="66" width="0.3" height="16" fill="#89e051"/>
+    <rect x="28.0" y="66" width="227.7" height="16" fill="#3178c6"/>
+    <rect x="255.7" y="66" width="163.5" height="16" fill="#3572A5"/>
+    <rect x="419.2" y="66" width="32.1" height="16" fill="#f1e05a"/>
+    <rect x="451.3" y="66" width="0.7" height="16" fill="#89e051"/>
   </g></g>
   <g class="leg" style="animation-delay:0.90s">
     <circle class="dot" cx="34" cy="118" r="5" fill="#3178c6"/>
     <text class="mono nm" x="46" y="122">TypeScript</text>
-    <text class="mono pc" x="180" y="122" text-anchor="end">78.3%</text>
+    <text class="mono pc" x="180" y="122" text-anchor="end">53.7%</text>
   </g>
   <g class="leg" style="animation-delay:0.98s">
     <circle class="dot" cx="34" cy="148" r="5" fill="#3572A5"/>
     <text class="mono nm" x="46" y="152">Python</text>
-    <text class="mono pc" x="180" y="152" text-anchor="end">15.1%</text>
+    <text class="mono pc" x="180" y="152" text-anchor="end">38.6%</text>
   </g>
   <g class="leg" style="animation-delay:1.06s">
     <circle class="dot" cx="34" cy="178" r="5" fill="#f1e05a"/>
     <text class="mono nm" x="46" y="182">JavaScript</text>
-    <text class="mono pc" x="180" y="182" text-anchor="end">5.1%</text>
+    <text class="mono pc" x="180" y="182" text-anchor="end">7.6%</text>
   </g>
   <g class="leg" style="animation-delay:1.14s">
-    <circle class="dot" cx="266" cy="118" r="5" fill="#663399"/>
-    <text class="mono nm" x="278" y="122">CSS</text>
-    <text class="mono pc" x="452" y="122" text-anchor="end">0.8%</text>
-  </g>
-  <g class="leg" style="animation-delay:1.22s">
-    <circle class="dot" cx="266" cy="148" r="5" fill="#e34c26"/>
-    <text class="mono nm" x="278" y="152">HTML</text>
-    <text class="mono pc" x="452" y="152" text-anchor="end">0.6%</text>
-  </g>
-  <g class="leg" style="animation-delay:1.30s">
-    <circle class="dot" cx="266" cy="178" r="5" fill="#89e051"/>
-    <text class="mono nm" x="278" y="182">Shell</text>
-    <text class="mono pc" x="452" y="182" text-anchor="end">0.1%</text>
+    <circle class="dot" cx="266" cy="118" r="5" fill="#89e051"/>
+    <text class="mono nm" x="278" y="122">Shell</text>
+    <text class="mono pc" x="452" y="122" text-anchor="end">0.2%</text>
   </g>
 </svg>
