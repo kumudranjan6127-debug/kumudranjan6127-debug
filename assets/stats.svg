@@ -62,7 +62,7 @@
   </g>
   <g class="item" style="animation-delay:0.18s">
     <text class="mono lbl" x="262" y="82">REPOSITORIES</text>
-    <text class="mono val" x="262" y="108">3</text>
+    <text class="mono val" x="262" y="108">4</text>
   </g>
   <g class="item" style="animation-delay:0.26s">
     <text class="mono lbl" x="28" y="140">COMMITS (2026)</text>
@@ -70,7 +70,7 @@
   </g>
   <g class="item" style="animation-delay:0.34s">
     <text class="mono lbl" x="262" y="140">CONTRIBUTIONS</text>
-    <text class="mono val" x="262" y="166">218</text>
+    <text class="mono val" x="262" y="166">219</text>
   </g>
   <g class="item" style="animation-delay:0.42s">
     <text class="mono lbl" x="28" y="196">PULL REQUESTS</text>
