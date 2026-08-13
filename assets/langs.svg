@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 220" width="480" height="220" role="img" aria-label="Top Languages — Python 44.3%, TypeScript 14.7%, JavaScript 12.2%, HTML 11.6%, Jupyter Notebook 8.6%, CSS 8.6%">
-  <title>Top Languages — Python 44.3%, TypeScript 14.7%, JavaScript 12.2%, HTML 11.6%, Jupyter Notebook 8.6%, CSS 8.6%</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 220" width="480" height="220" role="img" aria-label="Top Languages — Python 44.9%, TypeScript 14.4%, JavaScript 12.2%, HTML 11.4%, CSS 8.5%, Jupyter Notebook 8.5%">
+  <title>Top Languages — Python 44.9%, TypeScript 14.4%, JavaScript 12.2%, HTML 11.4%, CSS 8.5%, Jupyter Notebook 8.5%</title>
   <defs>
     <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#0A1420"/><stop offset="100%" stop-color="#0E2438"/>
@@ -57,22 +57,22 @@
   <g class="ring"><rect x="434" y="26" width="12" height="12" rx="2" fill="none" stroke="#22D3EE" stroke-opacity=".7" stroke-width="1.1"/></g>
   <rect x="28" y="66" width="424" height="16" rx="8" fill="#14283C"/>
   <g clip-path="url(#wipeclip)"><g clip-path="url(#barclip)">
-    <rect x="28.0" y="66" width="187.9" height="16" fill="#3572A5"/>
-    <rect x="215.9" y="66" width="62.2" height="16" fill="#3178c6"/>
-    <rect x="278.1" y="66" width="51.7" height="16" fill="#f1e05a"/>
-    <rect x="329.8" y="66" width="49.0" height="16" fill="#e34c26"/>
-    <rect x="378.8" y="66" width="36.5" height="16" fill="#DA5B0B"/>
-    <rect x="415.3" y="66" width="36.3" height="16" fill="#663399"/>
+    <rect x="28.0" y="66" width="190.3" height="16" fill="#3572A5"/>
+    <rect x="218.3" y="66" width="61.2" height="16" fill="#3178c6"/>
+    <rect x="279.4" y="66" width="51.9" height="16" fill="#f1e05a"/>
+    <rect x="331.4" y="66" width="48.5" height="16" fill="#e34c26"/>
+    <rect x="379.8" y="66" width="35.9" height="16" fill="#663399"/>
+    <rect x="415.8" y="66" width="35.9" height="16" fill="#DA5B0B"/>
   </g></g>
   <g class="leg" style="animation-delay:0.90s">
     <circle class="dot" cx="34" cy="118" r="5" fill="#3572A5"/>
     <text class="mono nm" x="46" y="122">Python</text>
-    <text class="mono pc" x="180" y="122" text-anchor="end">44.3%</text>
+    <text class="mono pc" x="180" y="122" text-anchor="end">44.9%</text>
   </g>
   <g class="leg" style="animation-delay:0.98s">
     <circle class="dot" cx="34" cy="148" r="5" fill="#3178c6"/>
     <text class="mono nm" x="46" y="152">TypeScript</text>
-    <text class="mono pc" x="180" y="152" text-anchor="end">14.7%</text>
+    <text class="mono pc" x="180" y="152" text-anchor="end">14.4%</text>
   </g>
   <g class="leg" style="animation-delay:1.06s">
     <circle class="dot" cx="34" cy="178" r="5" fill="#f1e05a"/>
@@ -82,16 +82,16 @@
   <g class="leg" style="animation-delay:1.14s">
     <circle class="dot" cx="266" cy="118" r="5" fill="#e34c26"/>
     <text class="mono nm" x="278" y="122">HTML</text>
-    <text class="mono pc" x="452" y="122" text-anchor="end">11.6%</text>
+    <text class="mono pc" x="452" y="122" text-anchor="end">11.4%</text>
   </g>
   <g class="leg" style="animation-delay:1.22s">
-    <circle class="dot" cx="266" cy="148" r="5" fill="#DA5B0B"/>
-    <text class="mono nm" x="278" y="152">Jupyter Notebook</text>
-    <text class="mono pc" x="452" y="152" text-anchor="end">8.6%</text>
+    <circle class="dot" cx="266" cy="148" r="5" fill="#663399"/>
+    <text class="mono nm" x="278" y="152">CSS</text>
+    <text class="mono pc" x="452" y="152" text-anchor="end">8.5%</text>
   </g>
   <g class="leg" style="animation-delay:1.30s">
-    <circle class="dot" cx="266" cy="178" r="5" fill="#663399"/>
-    <text class="mono nm" x="278" y="182">CSS</text>
-    <text class="mono pc" x="452" y="182" text-anchor="end">8.6%</text>
+    <circle class="dot" cx="266" cy="178" r="5" fill="#DA5B0B"/>
+    <text class="mono nm" x="278" y="182">Jupyter Notebook</text>
+    <text class="mono pc" x="452" y="182" text-anchor="end">8.5%</text>
   </g>
 </svg>
